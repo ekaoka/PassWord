@@ -1,0 +1,73 @@
+*    github
+** push and pull repositories
+1. git init
+2. git add
+3. git config user.name
+4. git config user.email
+5. git commit
+6. git remote add origin https:
+7. git push -u origin master
+8. shh-keygrn -C "emailadress"
+
+
+
+
+
+*    ubuntu
+1. dpkg命令
+来自: http://man.linuxde.net/dpkg
+2. if failed add dependency term
+$sudo apt --fix-broken install 
+then repeat 1.
+
+*    .net core 2.0
+**   download
+1.(Before installing .NET Core, you need to register the
+Microsoft Product feed)
+First:Register the trusted Microsoft signature key
+
+   $ curl https://packages.microsoft.com/keys/microsoft.asc | gpg
+    --dearmor > microsoft.gpg
+   $ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg  
+
+Second:Register the Microsoft Product feed for your distro version
+
+   $ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-zesty-prod 
+   zesty main" > /etc/apt/sources.list.d/dotnetdev.list'
+
+2. The following commands update the list of products 
+   available for installation, installs components required
+   by .NET Core, then installs the .NET Core SDK.
+  
+   $ sudo apt-get update
+
+   $ sudo apt-get install dotnet-sdk-2.0.0
+
+   use 'sudo apt autoremove'to uninstall them
+*    emacs
+1. 撤销命令Ctrl+/
+2. 修改了文件没保存就关机了。
+你大可以从容地打开原来的文件（注意不是自动保存文件）然后输入
+ M-x recover file <Return> 来恢复你的自动保存文件。
+在提示确认的时候，输入 yes<Return>。
+3. Ctrl+s 寻找 Ctrl+s forward   Ctrl+r  backward
+
+*    vscode
+setting
+{
+    "editor.codeLens": false,
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "git.enabled": false
+}
+*    passwords 
+                    account                        password
+1. weibo/yunbaidu   18862173789                    zhuuangu
+2. 163email         sd_bruno@163.com               zhuuangu
+3. outlook          zgy_bruno@outlook.com          zhuuangu851023
+4. godaddy          ekaoka/167988893/1235          Zhuuangu851023
+5. github           ekaoka                         zhuuangu851023
+6. GoogleAccount    sd_bruno@163.com/18862173789   password:zhuuangu
+7. facebook         1886217...                     zhuunagu
+8. firefox          zgy_bruno@outlook.com          zhuuangu
+9. music163         sd_bruno...                    zhuuangu
